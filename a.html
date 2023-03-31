@@ -1,0 +1,49 @@
+<html>
+<link rel="stylesheet" href="design.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+<body>
+    <form class="iphone-14-1 screen" name="form1" action="form1" method="post">
+    <div class="group-1">
+        <h1 class="text-1 valign-text-middle">Оформление<br />Заказа</h1>
+        <img class="logo_system_osn-1-1" src="imgs/orlan_logo.svg" alt="logo_SYSTEM_osn (1) 1"/>
+    </div>
+
+    <div class="frame-1">
+        <div class="frame-1-item">
+            <input class="text_input comfortaa-normal-ship-gray-14px" id="name" placeholder="Имя" type="text" required=""></input>
+        </div>
+        <div class="frame-1-item">
+            <input class="x comfortaa-normal-ship-gray-14px" id="second_name" placeholder="Фамилия/Компания" type="text" required=""></input>
+        </div>
+        <div class="frame-1-item">
+            <input class="text_input-1 comfortaa-normal-ship-gray-14px" id="phone" placeholder="Телефон" type="number" required=""/>
+        </div>
+        <div class="frame-1-item">
+            <input class="text_input-2 comfortaa-normal-ship-gray-14px" id="mail" placeholder="Почта" type="email" required=""/>
+        </div>
+        <button id="proceed", style="border: none; outline: none; background: none;">
+            <img class="vector" src="imgs/proceed.svg" alt="Vector"/>
+        </button>
+    </div>
+    <script src=" https://telegram.org/js/telegram-web-app.js "></script>
+    <script>
+        document.getElementById("name").value = tg.initDataUnsafe.user.first_name
+    </script>
+    </form>
+    <script src=" https://telegram.org/js/telegram-web-app.js "></script>
+    <script>
+        let tg = window.Telegram.WebApp;
+        let name = document.getElementById("name")
+        let second_name = document.getElementById("second_name")
+        let phone = document.getElementById("phone")
+        let email = document.getElementById("mail")
+        let proceed = document.getElementById("proceed")
+
+        proceed.addEventListener("click", () => {
+            tg.close()
+        })
+    </script>
+</body>
+</html>

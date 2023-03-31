@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400 ");
+.iphone-14-1 {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+    height: 835px;
+    min-width: 390px;
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+}
+.hidden,
+.hidden * {
+pointer-events: none;
+visibility: hidden;
+}
+.frame-1 {
+align-items: center;
+display: flex;
+flex-direction: column;
+height: 583px;
+justify-content: space-between;
+position: relative;
+width: fit-content; }
+.frame-1-item {
+    align-items: center;
+    background-color: var(--mauve);
+    border-radius: 27px;
+    box-shadow: 0px 0px 0px #9d4edd59, 0px 9px 21px #9d4edd57, 0px 37px 37px
+    #9d4edd4c, 0px 84px 50px #9d4edd2e, 0px 150px 60px #9d4edd0d,
+    0px 234px 65px #9d4edd03, inset 0px 4px 4px #9d4edd40;
+    display: flex;
+    height: 67px;
+    justify-content: center;
+    min-width: 340px;
+    position: relative;
+}
+.text_input-1 {
+    background-color: transparent;
+    border: 0;
+    height: 67px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 31px;
+    padding: 0;
+    width: 323px;
+}
+
+.text_input-1::placeholder {
+    color: #3e3e3e99;
+    font-family: 'Comfortaa', cursive;
+}
+input:focus {
+    outline: none;
+}
+
+.vector{
+cursor: pointer;
+height: 67px;
+min-width: 340px;
+position: relative;}
+
+.text_input {
+background-color: transparent;
+border: 0;;
+height: 67px;
+letter-spacing: 0;
+line-height: normal;
+margin-left: 31px;
+padding: 0;
+width: 323px;
+font-family: 'Comfortaa', cursive;
+}
+.text_input::placeholder{
+color: #3e3e3e99;
+font-family: 'Comfortaa', cursive;}
+
+.text_input-2 {
+background-color: transparent;
+border: 0;
+height: 67px;
+letter-spacing: 0;
+line-height: normal;
+margin-left: 31px;
+padding: 0;
+width: 323px;
+font-family: 'Comfortaa', cursive;}
+
+.text_input-2::placeholder {
+    color: #3e3e3e99;
+    font-family: 'Comfortaa', cursive;
+}
+.x::placeholder {
+color: #3e3e3e99;
+font-family: 'Comfortaa', cursive;
+}
+.x {
+background-color: transparent;
+border: 0;
+height: 67px;
+letter-spacing: 0;
+line-height: normal;
+margin-left: 31px;
+padding: 0;
+width: 323px;
+font-family: 'Comfortaa', cursive;
+}
+.group-1 {
+background-color: var(--mauve);
+box-shadow: 0px 0px 0px 5#5a189a33, 0px 7px 16px 5#5a189a33, 0px 29px 29px
+#5a189a2b, 0px 64px 39px 5#5a189a1a, 0px 114px 46px #5a189a08,
+0px 179px 50px transparent, inset 0px -4px 4px #9d4edd40;
+height: 114px;
+min-width: 390px;
+position: relative;
+
+}
+.text-1{
+color: #2e0141;
+font-family: var(--font-family-comfortaa);
+font-size: var(--font-size-m2);
+font-weight: 400;
+height: 67px;
+left: 165px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+text-align: center;
+top: 21px;
+width: 200px;}
+.valign-text-middle {
+display: flex;
+flex-direction: column;
+justify-content: center;}
+.logo_system_osn-1-1 {
+height: 50px;
+left: 25px;
+object-fit: cover;
+position: absolute;
+top: 32px;
+width: 137px;}
